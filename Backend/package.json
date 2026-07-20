@@ -1,7 +1,9 @@
 {
-  "name": "yt-genai",
+  "name": "genai-ats-resume-analyzer",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI-powered ATS Resume Analyzer and Interview Preparation Platform",
+"author": "Lakshit Mehta",
+"license": "MIT"
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

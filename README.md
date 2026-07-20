@@ -1,5 +1,11 @@
 # GenAI-Powered ATS Resume Analyzer & Interview Preparation Platform
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Google-Gemini-blue?style=for-the-badge)
+
 An AI-powered full-stack web application that analyzes resumes against job descriptions, generates personalized interview preparation plans, identifies skill gaps, and creates ATS-optimized resumes using Google's Gemini AI.
 
 ## Features
@@ -39,41 +45,46 @@ An AI-powered full-stack web application that analyzes resumes against job descr
 
 ---
 
+
 ## Application Preview
 
-### Login
+### Authentication
 
 ![Login](assets/screenshots/login.png)
-
----
 
 ### Dashboard
 
 ![Dashboard](assets/screenshots/dashboard.png)
 
----
-
-### Technical Interview Questions
+### Interview Preparation
 
 ![Technical Questions](assets/screenshots/technical-questions.png)
 
----
-
-### Behavioral Interview Questions
-
 ![Behavioral Questions](assets/screenshots/behavioral-questions.png)
 
----
-
-### AI-Generated Preparation Roadmap
+### Personalized Roadmap
 
 ![Roadmap](assets/screenshots/roadmap.png)
 
----
-
-### AI-Generated ATS Resume
+### ATS Resume Generation
 
 ![Generated Resume](assets/screenshots/generated-resume.png)
+
+---
+
+## Architecture
+
+```text
+React (Frontend)
+        │
+        ▼
+Express.js REST API
+        │
+        ├────────► Google Gemini AI
+        │
+        ▼
+MongoDB Atlas
+```
 
 ## Project Structure
 
@@ -152,4 +163,10 @@ GOOGLE_API_KEY=your_gemini_api_key
 
 ## Acknowledgements
 
-This project was developed by following and learning from a public tutorial by **Ankur**. The repository has been independently configured, documented, and organized for learning and portfolio purposes.
+## Acknowledgements
+
+This project was built while following a public tutorial by **Ankur** as a learning resource. The codebase has been independently configured, documented, organized, and maintained for educational and portfolio purposes.
+
+## License
+
+This project is licensed under the MIT License.
